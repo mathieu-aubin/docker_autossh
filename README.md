@@ -19,4 +19,4 @@ This image is based on [alpine](https://hub.docker.com/r/_/alpine/).
 The default **ENTRYPOINT** is ```/entrypoint.sh``` and the default **CMD** is ```--help```.  
 ```/entrypoint.sh``` installs all the files under */install/* to */root/.ssh/*, and executes ```autossh```.
 
-Take a look at [the autossh README](http://www.harding.motd.ca/autossh/README) to see all the available parameters.
+Take a look at [the autossh README](http://www.harding.motd.ca/autossh/README.txt) to see all the available parameters.
